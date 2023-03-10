@@ -1,0 +1,187 @@
+/* 
+1 rem = 1 em = 16px
+rem - root font size
+em - current font size 
+*/
+/* To convert px to em ===  px / 16px
+1350px / 16px = 84em
+*/
+/* 
+**Below 1350px
+ */
+
+@media (max-width: 84em){
+    .container,
+    .testimonials-section{
+        max-width: 110em;
+        margin: 0 auto;
+    }
+    .sec-header{
+        font-size: 3.4rem;
+
+    }
+    .meals-section{
+        max-width: 40rem;
+        gap: 4%;
+        padding: 1%;
+    }
+    .about-store{
+        padding-left: 50%;
+        text-align: center;
+    }
+    .store,
+    .foods,.meals{ 
+        font-size: 2rem;
+    }
+}
+/* 
+**Below 1200px
+ */
+@media (max-width: 75em){
+    html{
+        /* 10 / 16 *100 */
+        font-size: 56.25%;
+    }
+    .navigation-header ul{
+        gap: 3.2rem;
+    }
+    .navigation-header,
+    .about-sec,
+    .testimonials-section{
+        gap: 5%;
+    }
+    .meals{
+        gap: 3%;
+    }
+    .card-offers{
+        gap: 3%;
+        width: 80%;
+        font-size: 2rem;
+    }
+    .downloads{
+        gap: 12%;
+    }
+    .customer-review2{
+        left: 5%;
+        top: 75%;
+    }
+    .customer-review{
+        left: 75%;
+        bottom: 75%;
+    }
+    
+}
+@media (max-width: 810px){
+    .customer-review{
+      bottom: 0;
+     left: 45%;
+    }
+    .customer-review2{
+        left: -50%;
+        bottom: 0;
+        margin-top: 10%;
+    }
+    .testimonial-image{
+        margin-bottom: 50%;
+    }
+    
+}
+@media  (max-width: 768px){
+    
+    .app-download{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .app-img{
+        width: 280px;
+        height: 550;
+    }
+}
+
+    .testimonials-section{
+        padding-right: 25%;
+    }
+    .meals-img{
+        width: 180px;
+        height: 180px;
+    }
+    .about-img{
+        width: 230px;
+        height: 230px;
+    }
+    .footer{
+        gap: 8%;
+        letter-spacing: 1px;
+        padding: 5%;
+    }
+
+@media (max-width: 600px){
+    .downloads{
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+
+    }
+    .app-img{
+        width: 250px;
+        height: 400;
+    }
+
+    .about-img{
+        width: 200px;
+        height: 200px;
+    }
+    .btn-add-cart{
+        padding: 8px 28px;
+    }
+    .btn-order{
+        padding: 12px 24px;
+    }
+    .Logo{
+        font-size: 3.2rem;
+
+    }
+    .subscriptions{
+        flex-direction: column;
+        gap: 4%;
+    }
+    .primary-paragraph{
+        line-break: auto;
+    }
+    .meals-img{
+        width: 150px;
+        height: 150px;
+    }
+    .customer-shot{
+        width: 60px;
+        height: 60px;
+
+    }
+    .dave-shot{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    .card-component{
+        flex-direction: column;
+        gap: 5%;
+    }
+    .testimonials-section{
+        padding-right: 150%;
+    }
+    .app-download{
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .footer{
+        gap: 4%;
+        letter-spacing: normal;
+        padding: 4%;
+        font-size: 10px;
+    }
+    .primary-paragraph{
+        font-size: 10px;
+    }
+}
