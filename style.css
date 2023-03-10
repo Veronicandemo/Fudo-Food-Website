@@ -186,6 +186,11 @@ Colors - #ffdd62
     right: 50%;
  
  }
+ .primary-paragraph{
+    font-size: 2.6rem;
+    letter-spacing: 1.1;
+    margin-bottom: 8%;
+ }
  .customer-review2{
     position: absolute;
     top: 70%;
@@ -212,10 +217,7 @@ Colors - #ffdd62
     margin-bottom: 15%;
  }
 
- .offer-p{
-    letter-spacing: 1.1;
-    margin-bottom: 8%;
- }
+
  .menu-button{
     font-size: 1.8rem;
     padding: 5% 15%;
