@@ -38,10 +38,6 @@ em - current font size
 **Below 1200px
  */
 @media (max-width: 75em){
-    html{
-        /* 10 / 16 *100 */
-        font-size: 56.25%;
-    }
     .navigation-header ul{
         gap: 3.2rem;
     }
