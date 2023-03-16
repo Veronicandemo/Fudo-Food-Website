@@ -10,44 +10,105 @@ em - current font size
 **Below 1350px
  */
 
-@media (max-width: 84em){
-    .container,
-    .testimonials-section{
-        max-width: 110em;
-        margin: 0 auto;
+@media (max-width: 84em){   
+    .container{
+        overflow: hidden;
+        padding-left: 8%;
+    }
+    .navigatio-header{
+        gap: 8%;
+    }.Logo{
+        font-size: 3.4rem;
+    }
+    .signin{
+        margin-left: 20px;
+    }
+    .navigatio-header ul{
+            gap: 4%;
+            font-size: 24px;
     }
     .sec-header{
-        font-size: 3.4rem;
-
+        font-size: 6rem;  
     }
+  
+    .about-sec p{
+        font-size: 20px;
+        line-height: 1.5;
+        gap: 5%;
+    }
+    .about-img{
+        width: 350px;
+        height: 350px;
+    }
+    .customer-review2{
+        top: 68%;
+        left: 69%;
+    }
+    
     .meals-section{
-        max-width: 40rem;
         gap: 4%;
-        padding: 1%;
+        padding-bottom: 10%;
+        font-size: 14px;
+        margin: 0;
     }
     .about-store{
-        padding-left: 50%;
-        text-align: center;
+        margin-right: 30rem;
+        font-size: 2.6rem;
+        padding-top: 4%;
     }
     .store,
     .foods,.meals{ 
         font-size: 2rem;
+    }
+    .food-type{
+        margin: 2% 0 3% 15%;
+    }
+    .dish-type{
+        margin: 3% 0 5% 8%;
+    }
+    .icons{
+        margin: 3% 0 10% 13%;
+    }
+    .dots{
+        margin-right: 45rem;
     }
 }
 /* 
 **Below 1200px
  */
 @media (max-width: 75em){
+    /* body{
+        font-size: 14px;
+    } */
+    main{
+        overflow: hidden;
+    }
     .navigation-header ul{
         gap: 3.2rem;
+  
+    }
+    .btn-add-cart{
+        font-size: 2.8rem;
     }
     .navigation-header,
     .about-sec,
     .testimonials-section{
-        gap: 5%;
+        gap: 4%;
+    }
+    .testimonials-section{
+        flex-direction: column;
+    }
+
+    .about-sec{
+        flex-direction: column;
+        font-size: 16px;
+        margin-right: 40rem;
     }
     .meals{
-        gap: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5%;
+        row-gap: 5%;
     }
     .card-offers{
         gap: 3%;
@@ -55,35 +116,98 @@ em - current font size
         font-size: 2rem;
     }
     .downloads{
-        gap: 12%;
+        gap: 5%;
+        margin-top: 5%;
+    }
+    .subscriptions{
+        gap: 5%;
     }
     .customer-review2{
-        left: 5%;
-        top: 75%;
+        left: -5%;
+        top: 15%;
     }
     .customer-review{
-        left: 75%;
-        bottom: 75%;
+        left: 35%;
+        bottom: 20%;
     }
-    
+    .testimonials-image{
+        margin: 15%;
+    }
+    .testimonials-section h2{
+        margin-top: 5%;
+        margin-bottom: 10%;
+
+    }
+    .card-component{
+        flex-direction: column;
+    }
+    .card-heading{
+        text-align:start;
+        margin-left: 10%;
+    }
+    .card-offers{
+        width: 50%;
+        margin: 5%;
+    }
+
+    .services{
+     flex-direction: column;
+    }
+    .service{
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+    .service-header{
+        text-align: start;
+        margin-left: 15%;
+    }
+   
+    .testimonial-heading,
+    .icon-quote{
+        margin-left: 20%;
+    }
+    .primary-paragraph{
+        font-size: 20px;
+    }
+    .primary-heading{
+        font-size: 3.6rem;
+    }
+    .critics{
+        margin-right: 40rem;
+    }
+    .ceo-info{
+        margin-right: 30rem;
+        font-size: 24px;
+    }   
+    .menu-button{
+        padding: 2% 10%;
+        font-size: 2.8rem;   
+    } 
 }
 @media (max-width: 810px){
     .customer-review{
-      bottom: 0;
      left: 45%;
     }
     .customer-review2{
-        left: -50%;
-        bottom: 0;
-        margin-top: 10%;
+        left: -5%;
+        bottom: 15%;
     }
     .testimonial-image{
         margin-bottom: 50%;
     }
     
 }
-@media  (max-width: 768px){
-    
+@media  (max-width: 800px){
+    .navigatio-header ul{
+        font-size: 1.6rem;
+        gap: 10%;
+    }
+    .about-sec{
+        margin-top: 8%;
+    }
+    .sec-header{
+        font-size: 3.8rem;
+    }
     .app-download{
         display: flex;
         flex-direction: column;
@@ -93,10 +217,12 @@ em - current font size
         width: 280px;
         height: 550;
     }
-}
-
-    .testimonials-section{
-        padding-right: 25%;
+    .primary-paragraph{
+    font-size: 1.8rem;
+    }
+    .critics img{
+    height: 23%;
+    width: 23%;   
     }
     .meals-img{
         width: 180px;
@@ -111,19 +237,22 @@ em - current font size
         letter-spacing: 1px;
         padding: 5%;
     }
+}
 
-@media (max-width: 600px){
+@media (max-width: 610px){
+    .navigatio-header{
+        font-size: 1.2rem;
+    }
+
     .downloads{
         display: flex;
         flex-direction: column;
         gap: 4%;
-
     }
     .app-img{
         width: 250px;
         height: 400;
     }
-
     .about-img{
         width: 200px;
         height: 200px;
@@ -179,5 +308,22 @@ em - current font size
     }
     .primary-paragraph{
         font-size: 10px;
+    }
+}
+@media (max-width: 640px){
+    .about-sec{
+        margin-right: 15rem;
+    }
+}
+@media (max-width: 550px){
+    .testimonials-section{
+        padding-right: 0%;
+    }
+}
+@media (max-width: 400){
+    .about-sec{
+        margin-bottom: 10rem;
+        font-size: 12px;
+
     }
 }
